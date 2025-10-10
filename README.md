@@ -43,7 +43,19 @@ This project blends **visual storytelling**, **emotion-driven narration**, and *
 5. **Listen & Enjoy** – The app plays your narrated story instantly.
 
 ---
+## Pipeline Blueprint
 
+
+
+| Layer                     | Components                     | Description                                       |
+| ------------------------- | ------------------------------ | ------------------------------------------------- |
+| **User Layer**            | Streamlit App                  | User uploads, selects controls                    |
+| **Prompt Layer**          | `create_advanced_prompt()`     | Creates language, emotion, and style-aware prompt |
+| **Story Model Layer**     | `gemini-2.5-flash-lite`        | Generates contextual story text from images       |
+| **Narration Model Layer** | `gemini-2.5-flash-preview-tts` | Converts story text into emotional audio          |
+| **Output Layer**          | Streamlit Renderer             | Displays text and plays back audio                |
+
+---
 ## 🧩 Tech Stack
 
 | Component | Technology |

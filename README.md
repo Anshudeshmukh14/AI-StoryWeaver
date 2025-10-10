@@ -43,9 +43,9 @@ This project blends **visual storytelling**, **emotion-driven narration**, and *
 5. **Listen & Enjoy** – The app plays your narrated story instantly.
 
 ---
-## Pipeline Blueprint
+## 🛠️ Pipeline Blueprint
 
-
+![pipeline](https://github.com/SannidhyaDas/AI-StoryWeaver/blob/main/assets/pipeline.png)
 
 | Layer                     | Components                     | Description                                       |
 | ------------------------- | ------------------------------ | ------------------------------------------------- |
@@ -69,7 +69,19 @@ This project blends **visual storytelling**, **emotion-driven narration**, and *
 ---
 
 ## 🏗️ Project Structure
+```bash
+AI-StoryWeaver/
+│
+├─ main.py    # Core backend functions
+├─ app.py     # Streamlit frontend for user interaction
+├── assets/                        
+│   ├── appInterface_1.png            # e.g., image upload + user choice filling  
+│   ├── appInterface_2.png            # e.g., output story with audio 
+│   └── pipeline.png                  # working pipeline
+├─ requirements.txt # Python dependencies
+└─ README.md # Project documentation
 
+```
 ---
 
 ## ⚙️ Setup Instructions
@@ -115,4 +127,26 @@ streamlit run app.py
 - sad
 - angry
 - serious
+---
+## 💡 Real-World Impact & Use Cases
 
+📚 **AI Storytelling Companion** – Empowers users and creators to turn simple visuals into emotionally rich, multilingual stories — perfect for digital media, education, and entertainment platforms.
+
+🎧 **Language Learning Assistant** – Enhances regional language fluency through story-based listening and contextual narration, supporting India's multilingual learning ecosystem.
+
+🎬 **Creative Script Generator** – Assists writers, filmmakers, and ad creators in ideating scripts or storyboards from visual inspiration — reducing pre-production time and boosting creativity.
+
+🌐 **Inclusive Voice Narration Platform** – Brings stories to life with expressive, emotion-aware voiceovers in multiple Indian languages — making storytelling accessible for all audiences.
+
+🎨 **Content Personalization Engine** – Demonstrates how multimodal GenAI can tailor content to user emotions, language, and context — a use case for personalized media and edtech experiences.
+
+---
+## 🏁 Future Enhancements
+
+🎙️ Add custom voice cloning for personalized narration
+
+🖼️ Integrate background music generation
+
+🧠 Add memory to continue stories across sessions
+
+🌐 Extend to more regional languages 

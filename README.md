@@ -1,4 +1,4 @@
-# 🎨 AI StoryWeaver ( [🌐 Live Demo]() )
+# 🎨 AI StoryWeaver ( [🌐 Live Demo](https://sannidhya-das-ai-storyweaver.streamlit.app/) )
  - Multilingual Image-to-Story & Voice Narrator (Powered by Google Gemini 2.5)
 
 ![example](https://github.com/SannidhyaDas/AI-StoryWeaver/blob/main/assets/appInterface_1.png)

